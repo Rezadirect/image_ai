@@ -16,3 +16,9 @@ or
 ```
 python3 main.py
 ```
+______________________________________sample
+![image](https://github.com/user-attachments/assets/4cc9caf1-2eca-4ea6-a5da-763abaa7bc24)
+______________________________________
+______________________________________output
+![image_410](https://github.com/user-attachments/assets/96e123df-e7bd-49d5-abff-e7f3e36e04e4)
+______________________________________
