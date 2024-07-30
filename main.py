@@ -4,7 +4,11 @@ import torch.nn as nn
 import torchvision.transforms as transforms
 from torchvision.utils import save_image
 from PIL import Image
+import os
+from datetime import datetime
 
+
+start_time = datetime.now()   # get now time
 
 class Generator(nn.Module):
     def __init__(self):
@@ -98,7 +102,13 @@ for epoch in range(start_epoch, num_epochs):
     for i in range(num_samples):
         # random noise
         os.system("cls")
+        current_time = datetime.now()
+        elapsed_time = current_time - start_time
+        days, seconds = elapsed_time.days, elapsed_time.seconds
+        hours, remainder = divmod(seconds, 3600)
+        minutes, seconds = divmod(remainder, 60)
         print(f"generating "+("■"*i)+f" {i*5+5}%")
+        print(f"Uptime: {days} days, {hours} hours, {minutes} minutes, {seconds} seconds", end='\r')
         z = torch.randn(batch_size, latent_dim)
 
         gen_imgs = generator(z)
