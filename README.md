@@ -27,7 +27,28 @@ sample
 ![image](https://github.com/user-attachments/assets/522be070-41dc-431d-bda2-567df2198d00)
 ______________________________________
 
-output_Attempt number: 520
+output_Attempt_number: 10
+
+
+
+
+
+
+![image_10](https://github.com/user-attachments/assets/aa78fd1b-621e-452c-b2fb-020b8ae9e769)
+
+______________________________________
+
+output_Attempt_number: 150
+
+
+
+
+
+![image_150](https://github.com/user-attachments/assets/d97517cd-354d-4315-ba25-997ae38d2086)
+
+______________________________________
+
+output_Attempt_number: 520
 
 
 
@@ -37,7 +58,7 @@ output_Attempt number: 520
 
 ______________________________________
 
-output_Attempt number: 1270
+output_Attempt_number: 1270
 
 
 
